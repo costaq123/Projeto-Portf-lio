@@ -1,131 +1,136 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
-  }
-  
-  header {
-    background-color: #002a44;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
- 
-  .logo-img {
-    height: 70px;
-    width: auto;
-    vertical-align: middle;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    margin-left: 20px;
-  }
-  
-  
-  .logo:hover {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  .nav-externa ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .nav-externa a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .nav-externa a:hover {
-    text-decoration: underline;
-  }
-  
-  .banner {
-      text-align: center;
-      padding: 101px 20px;
-      background: linear-gradient(to right, #212325, #3b55c9);
-      color: #ffffff;
-  }
-  
-  
-  .banner h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .banner p {
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
-  
-  .cursos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 126px;
-    margin-bottom: 40px;
-  }
-  
-  .curso {
-    background-color: #ffffff20;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 18px;
-    width: 250px;
-    text-align: center;
-    backdrop-filter: blur(10px);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .curso:hover {
-    transform: scale(1.05);
-  }
-  
-  .curso img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .contador {
-    font-size: 24px;
-    margin-top: 20px;
-  }
-  
-  footer {
-    background-color: #003f6b;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-  }
-  
-  footer a {
-    color: #a4d4ff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #002a44;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 20px;
+  color: white; /* Garante que a cor da logo seja sempre branca */
+}
+
+.logo-img {
+  height: 70px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.logo:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Garantir que o texto da logo seja branco */
+.logo a {
+  color: white;
+}
+
+.nav-externa ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-externa a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-externa a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  text-align: center;
+  padding: 101px 20px;
+  background: linear-gradient(to right, #212325, #3b55c9);
+  color: #ffffff;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.cursos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 126px;
+  margin-bottom: 40px;
+}
+
+.curso {
+  background-color: #ffffff20;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 250px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.curso:hover {
+  transform: scale(1.05);
+}
+
+.curso img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contador {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #003f6b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #a4d4ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 
 /* Adicionando o menu interno para a navegação entre as seções */
 .nav-interna {
@@ -144,7 +149,7 @@
 }
 
 .nav-interna a {
-  color: #123457;;
+  color: #123457;
   text-decoration: none;
   font-weight: bold;
 }
@@ -173,7 +178,7 @@
 .secao-provas h2, .secao-atividades h2, .secao-simulado h2 {
   font-size: 28px;
   margin-bottom: 30px;
-  color: #123457;;
+  color: #123457;
 }
 
 /* Contêiner de cada seção (Provas, Atividades, Simulados) */
@@ -202,7 +207,7 @@
 .prova h3, .atividade h3, .simulado h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #123457;;
+  color: #123457;
 }
 
 .prova p, .atividade p, .simulado p {
@@ -211,4 +216,11 @@
   color: #555;
 }
 
+/* Garantir que o estilo da logo não mude ao voltar para a página inicial */
+body.home header .logo a {
+  color: white; /* Cor sempre branca para a logo */
+}
 
+body.home header {
+  background-color: #002a44; /* Cor de fundo do header sempre clara na página inicial */
+}
