@@ -152,6 +152,15 @@
   text-align: center;
 }
 
+/* Aumentar o espaço entre as seções e a parte azul no topo */
+.secao-provas {
+  padding-top: 100px;  /* Ajuste o valor conforme necessário */
+}
+
+.secao-simulado {
+  padding-top: 100px;  /* Ajuste o valor conforme necessário */
+}
+
 .secao-provas h2, .secao-atividades h2, .secao-simulado h2 {
   font-size: 28px;
   margin-bottom: 30px;
@@ -189,3 +198,10 @@
 
 .prova p, .atividade p, .simulado p {
   font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Estilo para os links de cada item */
+.prova a, .atividade a, .simulado a {
+  text-decoration
