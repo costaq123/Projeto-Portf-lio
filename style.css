@@ -50,11 +50,12 @@
   }
   
   .banner {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(to right, #6fb1fc, #4364f7);
-    color: white;
+      text-align: center;
+      padding: 101px 20px;
+      background: linear-gradient(to right, #212325, #3b55c9);
+      color: #ffffff;
   }
+  
   
   .banner h1 {
     font-size: 36px;
