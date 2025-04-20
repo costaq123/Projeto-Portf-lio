@@ -205,5 +205,5 @@
 
 /* Estilo para os links de cada item */
 .prova a, .atividade a, .simulado a {
-  text-decoration
+  text-decoration;
 }
