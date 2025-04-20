@@ -2,15 +2,13 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matemática - Cursinho ENEM</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <a href="index.html" class="logo">Cursos MANIY</a>
-    
-    <!-- Navegação externa -->
     <nav class="nav-externa">
       <ul>
         <li><a href="matematica.html">Matemática</a></li>
@@ -20,37 +18,79 @@
         <li><a href="filosofia.html">Filosofia</a></li>
       </ul>
     </nav>
-
-    <!-- Navegação interna -->
-    <nav class="nav-interna">
-      <ul>
-        <li><a href="#provas">Provas</a></li>
-        <li><a href="#atividades">Atividades</a></li>
-        <li><a href="#simulados">Simulados</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
-    <section id="provas" class="secao">
-      <h2>Provas Anteriores</h2>
-      <p>Aqui você encontra provas anteriores de matemática com gabaritos comentados.</p>
+    <!-- Seção Provas -->
+    <section id="provas" class="secao-provas">
+      <h2>Provas</h2>
+      <div class="provas-container">
+        <div class="prova">
+          <h3>Prova 1 - Álgebra</h3>
+          <p>Conteúdos: Equações do 2º grau, sistemas lineares e produtos notáveis.</p>
+          <a href="#">Ver Prova</a>
+        </div>
+        <div class="prova">
+          <h3>Prova 2 - Geometria</h3>
+          <p>Conteúdos: Área, perímetro, volume e trigonometria.</p>
+          <a href="#">Ver Prova</a>
+        </div>
+        <div class="prova">
+          <h3>Simulado ENEM</h3>
+          <p>Questões no estilo ENEM de diversas áreas da matemática.</p>
+          <a href="#">Ver Simulado</a>
+        </div>
+      </div>
     </section>
 
-    <section id="atividades" class="secao">
-      <h2>Atividades Extras</h2>
-      <p>Exercícios para você praticar e reforçar seus conhecimentos.</p>
+    <!-- Seção Atividades -->
+    <section id="atividades" class="secao-atividades">
+      <h2>Atividades</h2>
+      <div class="atividades-container">
+        <div class="atividade">
+          <h3>Lista de Exercícios - Funções</h3>
+          <p>Exercícios sobre funções do 1º e 2º grau para praticar.</p>
+          <a href="#">Ver Atividade</a>
+        </div>
+        <div class="atividade">
+          <h3>Lista de Geometria</h3>
+          <p>Atividades sobre figuras planas, sólidos geométricos e ângulos.</p>
+          <a href="#">Ver Atividade</a>
+        </div>
+        <div class="atividade">
+          <h3>Desafios Lógicos</h3>
+          <p>Desafios para raciocínio lógico e resolução de problemas.</p>
+          <a href="#">Ver Desafios</a>
+        </div>
+      </div>
     </section>
-
-    <section id="simulados" class="secao">
-      <h2>Simulados</h2>
-      <p>Simulados completos com questões inéditas focadas no ENEM.</p>
-    </section>
+    <section id="simulado" class="secao-simulado">
+        <h2>Simulado</h2>
+        <div class="simulados-container">
+          <div class="simulado">
+            <h3>Simulado 1 - Matemática Geral</h3>
+            <p>Simulado com questões de Álgebra, Geometria e Trigonometria.</p>
+            <a href="#">Iniciar Simulado</a>
+          </div>
+          <div class="simulado">
+            <h3>Simulado 2 - Funções e Gráficos</h3>
+            <p>Questões sobre funções, gráficos e equações.</p>
+            <a href="#">Iniciar Simulado</a>
+          </div>
+          <div class="simulado">
+            <h3>Simulado 3 - ENEM - Matemática</h3>
+            <p>Simulado completo com questões no estilo do ENEM.</p>
+            <a href="#">Iniciar Simulado</a>
+          </div>
+        </div>
+      </section>
   </main>
 
   <footer>
     <p>Entre em contato com a gente <a href="mailto:contato@enemcursinho.com">aqui</a>.</p>
     <p>&copy; 2025 Cursinho ENEM. Todos os direitos reservados.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
