@@ -120,21 +120,21 @@
   }
 
   /* Estilos gerais para as seções */
-.secao {
+.secao-provas, .secao-atividades, .secao-simulado {
   padding: 60px 20px;
   margin-bottom: 40px;
   background-color: #f1f8ff;
   text-align: center;
 }
 
-.secao h2 {
+.secao-provas h2, .secao-atividades h2, .secao-simulado h2 {
   font-size: 28px;
   margin-bottom: 30px;
   color: #005b96;
 }
 
 /* Contêiner de cada seção (Provas, Atividades, Simulados) */
-.container {
+.provas-container, .atividades-container, .simulados-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -142,7 +142,7 @@
 }
 
 /* Estilo dos itens dentro de cada seção (cartões de provas, atividades e simulados) */
-.item {
+.prova, .atividade, .simulado {
   background-color: #d0e7ff;
   padding: 25px;
   border-radius: 12px;
@@ -152,24 +152,24 @@
   text-align: left;
 }
 
-.item:hover {
+.prova:hover, .atividade:hover, .simulado:hover {
   transform: translateY(-5px);
 }
 
-.item h3 {
+.prova h3, .atividade h3, .simulado h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #003f6b;
 }
 
-.item p {
+.prova p, .atividade p, .simulado p {
   font-size: 16px;
   margin-bottom: 15px;
   color: #555;
 }
 
 /* Estilo para os links de cada item */
-.item a {
+.prova a, .atividade a, .simulado a {
   text-decoration: none;
   background-color: #005b96;
   color: white;
@@ -179,7 +179,7 @@
   transition: background-color 0.3s ease;
 }
 
-.item a:hover {
+.prova a:hover, .atividade a:hover, .simulado a:hover {
   background-color: #003f6b;
 }
 
