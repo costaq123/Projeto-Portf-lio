@@ -266,68 +266,33 @@ body.home header {
   background-color: #2f44a3;
 }
 
-.rodape {
+footer {
   background-color: #003f6b;
   color: white;
-  padding: 40px 20px 20px;
-  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
 
-.rodape-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  gap: 30px;
-}
-
-.rodape-coluna {
-  flex: 1 1 250px;
-}
-
-.rodape-coluna h3,
-.rodape-coluna h4 {
-  margin-bottom: 10px;
+footer a {
   color: #a4d4ff;
-}
-
-.rodape-coluna ul {
-  list-style: none;
-  padding: 0;
-}
-
-.rodape-coluna ul li {
-  margin-bottom: 8px;
-}
-
-.rodape-coluna a {
-  color: #d3ecff;
   text-decoration: none;
 }
 
-.rodape-coluna a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
-.rodape-final {
-  text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #ffffff33;
-  margin-top: 30px;
-  font-size: 14px;
-}
-
 .redes-sociais {
-  margin-top: 10px;
-  display: flex;
-  gap: 10px;
+  margin: 15px 0;
 }
 
 .redes-sociais img {
   width: 32px;
   height: 32px;
-  transition: transform 0.2s ease;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+  filter: brightness(0) invert(1);
 }
 
 .redes-sociais img:hover {
