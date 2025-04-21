@@ -317,3 +317,19 @@ body.home header {
   margin-top: 30px;
   font-size: 14px;
 }
+
+.redes-sociais {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.redes-sociais img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.1);
+}
