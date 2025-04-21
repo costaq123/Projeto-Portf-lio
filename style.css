@@ -224,3 +224,59 @@ body.home header .logo a {
 body.home header {
   background-color: #002a44; /* Cor de fundo do header sempre clara na página inicial */
 }
+
+
+.secao-contato {
+  background-color: #f1f8ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.secao-contato h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #123457;
+}
+
+.formulario-contato {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.formulario-contato label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #123457;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario-contato button {
+  background-color: #3b55c9;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.formulario-contato button:hover {
+  background-color: #2f44a3;
+}
