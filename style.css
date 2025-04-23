@@ -20,13 +20,13 @@ header {
   flex-wrap: wrap;
 }
 
-/* Logo */
+
 .logo {
   display: flex;
   align-items: center;
   text-decoration: none;
   margin-left: 20px;
-  color: white; /* Garante que a cor da logo seja sempre branca */
+  color: white; 
 }
 
 .logo-img {
@@ -40,7 +40,7 @@ header {
   cursor: pointer;
 }
 
-/* Garantir que o texto da logo seja branco */
+
 .logo a {
   color: white;
 }
@@ -117,7 +117,7 @@ header {
 
 
 
-/* Adicionando o menu interno para a navegação entre as seções */
+
 .nav-interna {
   display: flex;
   justify-content: center;
@@ -143,7 +143,7 @@ header {
   text-decoration: underline;
 }
 
-/* Estilos gerais para as seções */
+
 .secao-provas, .secao-atividades, .secao-simulado {
   padding: 60px 20px;
   margin-bottom: 40px;
@@ -151,13 +151,13 @@ header {
   text-align: center;
 }
 
-/* Aumentar o espaço entre as seções e a parte azul no topo */
+
 .secao-provas {
-  padding-top: 100px;  /* Ajuste o valor conforme necessário */
+  padding-top: 100px; 
 }
 
 .secao-simulado {
-  padding-top: 100px;  /* Ajuste o valor conforme necessário */
+  padding-top: 100px;  
 }
 
 .secao-provas h2, .secao-atividades h2, .secao-simulado h2 {
@@ -166,7 +166,7 @@ header {
   color: #123457;
 }
 
-/* Contêiner de cada seção (Provas, Atividades, Simulados) */
+
 .provas-container, .atividades-container, .simulados-container {
   display: flex;
   flex-wrap: wrap;
@@ -174,7 +174,7 @@ header {
   justify-content: center;
 }
 
-/* Estilo dos itens dentro de cada seção (cartões de provas, atividades e simulados) */
+
 .prova, .atividade, .simulado {
   background-color: #d0e7ff;
   padding: 25px;
@@ -201,13 +201,13 @@ header {
   color: #555;
 }
 
-/* Garantir que o estilo da logo não mude ao voltar para a página inicial */
+
 body.home header .logo a {
-  color: white; /* Cor sempre branca para a logo */
+  color: white; 
 }
 
 body.home header {
-  background-color: #002a44; /* Cor de fundo do header sempre clara na página inicial */
+  background-color: #002a44; 
 }
 
 
